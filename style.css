@@ -1,0 +1,70 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #003366, #1e90ff, #ff8c00); /* Deep blue to light blue to orange gradient */
+}
+.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #f0f0f0; /* Replace with your desired color */
+    padding: 10px; /* Optional: adds space around the logo */
+    border-radius: 8px; /* Optional: adds rounded corners */
+    width: 100px;
+}
+.container{
+    background: linear-gradient(to right, #c0c0c0, #f3904f, #ff6347); /* Soft gray to orange gradient */
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 15px;
+
+}
+.timerDisplay{
+    position: relative;
+    width: 92%;
+    background: #ffffff;
+    left: 4%;
+    padding: 40px 0;
+    font-family: 'Roboto mono',monospace;
+    color: #0381bb;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #b0b0b0, #ff8c00); /* Gray to orange gradient */
+}
+
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.buttons button{
+    width: 120px;
+    height: 45px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: black;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(to right, #b0b0b0, #1e90ff, #ffa500);
+}
